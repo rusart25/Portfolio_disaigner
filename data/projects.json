@@ -1,0 +1,76 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "Timeline Magazine",
+      "titleRu": "Журнал Timeline",
+      "description": "Building a seamless path to better cellular health through thoughtful design and imagery.",
+      "descriptionRu": "Создание гармоничного пути к лучшему клеточному здоровью через продуманный дизайн и образы.",
+      "category": "design",
+      "tags": ["Design", "Photography", "Editorial"],
+      "image": "https://images.unsplash.com/photo-1542744094-24638afe58a7?w=800&q=80",
+      "featured": true,
+      "createdAt": "2024-01-15"
+    },
+    {
+      "id": "2",
+      "title": "Siesta Campers",
+      "titleRu": "Siesta Campers",
+      "description": "Elevating Portugal's premier van rental company through compelling brand photography.",
+      "descriptionRu": "Продвижение ведущей португальской компании по аренде фургонов через яркую брендовую фотографию.",
+      "category": "photography",
+      "tags": ["Photography", "Branding"],
+      "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&q=80",
+      "featured": true,
+      "createdAt": "2024-02-20"
+    },
+    {
+      "id": "3",
+      "title": "Architect Studio",
+      "titleRu": "Architect Studio",
+      "description": "Distilling architectural impact to its spatial essence through minimalist design.",
+      "descriptionRu": "Передача архитектурного воздействия через минималистичный дизайн и пространственную эстетику.",
+      "category": "design",
+      "tags": ["Design", "Web", "Branding"],
+      "image": "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=800&q=80",
+      "featured": true,
+      "createdAt": "2024-03-10"
+    },
+    {
+      "id": "4",
+      "title": "Portrait Series",
+      "titleRu": "Серия портретов",
+      "description": "An intimate exploration of human emotion and connection through portraiture.",
+      "descriptionRu": "Интимное исследование человеческих эмоций и связей через портретную фотографию.",
+      "category": "photography",
+      "tags": ["Photography", "Editorial"],
+      "image": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800&q=80",
+      "featured": false,
+      "createdAt": "2024-04-05"
+    },
+    {
+      "id": "5",
+      "title": "Urban Landscapes",
+      "titleRu": "Городские пейзажи",
+      "description": "Capturing the rhythm and energy of city life through architectural photography.",
+      "descriptionRu": "Запечатление ритма и энергии городской жизни через архитектурную фотографию.",
+      "category": "photography",
+      "tags": ["Photography", "Architecture"],
+      "image": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80",
+      "featured": false,
+      "createdAt": "2024-05-12"
+    },
+    {
+      "id": "6",
+      "title": "Bloom Cosmetics",
+      "titleRu": "Bloom Cosmetics",
+      "description": "Complete brand identity and packaging design for a luxury skincare line.",
+      "descriptionRu": "Полный фирменный стиль и дизайн упаковки для люксовой линии косметики.",
+      "category": "design",
+      "tags": ["Design", "Packaging", "Branding"],
+      "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800&q=80",
+      "featured": true,
+      "createdAt": "2024-06-01"
+    }
+  ]
+}

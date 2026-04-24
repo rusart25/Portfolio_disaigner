@@ -5,6 +5,7 @@ export const translations = {
     // Navigation
     nav: {
       work: "Work",
+      projects: "Projects",
       photography: "Photography",
       design: "Design",
       about: "About",
