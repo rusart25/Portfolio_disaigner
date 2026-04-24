@@ -1,0 +1,312 @@
+.loginContainer {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0a0a0a;
+  padding: 2rem;
+}
+
+.loginForm {
+  background: #111;
+  border: 1px solid #222;
+  border-radius: 1rem;
+  padding: 2.5rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+.loginTitle {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 0.5rem;
+  text-align: center;
+}
+
+.loginSubtitle {
+  color: #666;
+  text-align: center;
+  margin: 0 0 2rem;
+  font-size: 0.95rem;
+}
+
+.container {
+  min-height: 100vh;
+  background: #0a0a0a;
+  color: #fff;
+  padding: 2rem;
+}
+
+.header {
+  max-width: 1000px;
+  margin: 0 auto 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.headerActions {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.addBtn {
+  padding: 0.6rem 1.25rem;
+  background: #fff;
+  color: #000;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.addBtn:hover {
+  opacity: 0.9;
+}
+
+.logoutBtn {
+  padding: 0.6rem 1.25rem;
+  background: transparent;
+  color: #888;
+  border: 1px solid #333;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.logoutBtn:hover {
+  border-color: #555;
+  color: #fff;
+}
+
+.formCard {
+  max-width: 1000px;
+  margin: 0 auto 2rem;
+  background: #111;
+  border: 1px solid #222;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.formTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 0 1.5rem;
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.formGroup label {
+  color: #888;
+  font-size: 0.85rem;
+}
+
+.input,
+.select,
+.textarea {
+  padding: 0.75rem 1rem;
+  background: #0a0a0a;
+  border: 1px solid #333;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-size: 0.95rem;
+  transition: border-color 0.2s;
+}
+
+.input:focus,
+.select:focus,
+.textarea:focus {
+  outline: none;
+  border-color: #555;
+}
+
+.textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.formActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.cancelBtn {
+  padding: 0.6rem 1.25rem;
+  background: transparent;
+  color: #888;
+  border: 1px solid #333;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.cancelBtn:hover {
+  border-color: #555;
+  color: #fff;
+}
+
+.saveBtn {
+  padding: 0.6rem 1.5rem;
+  background: #22c55e;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.saveBtn:hover {
+  opacity: 0.9;
+}
+
+.saveBtn:disabled,
+.submitBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.submitBtn {
+  width: 100%;
+  padding: 0.85rem;
+  background: #fff;
+  color: #000;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.submitBtn:hover {
+  opacity: 0.9;
+}
+
+.error {
+  color: #ef4444;
+  font-size: 0.9rem;
+  text-align: center;
+  margin: 0 0 1rem;
+}
+
+.projectsList {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.projectCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.25rem;
+  background: #111;
+  border: 1px solid #222;
+  border-radius: 0.75rem;
+  gap: 1rem;
+}
+
+.projectInfo h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0 0 0.25rem;
+}
+
+.projectCategory {
+  color: #666;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.projectActions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.editBtn {
+  padding: 0.5rem 1rem;
+  background: transparent;
+  color: #3b82f6;
+  border: 1px solid #3b82f6;
+  border-radius: 0.4rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.editBtn:hover {
+  background: #3b82f6;
+  color: #fff;
+}
+
+.deleteBtn {
+  padding: 0.5rem 1rem;
+  background: transparent;
+  color: #ef4444;
+  border: 1px solid #ef4444;
+  border-radius: 0.4rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.deleteBtn:hover {
+  background: #ef4444;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .formGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .projectCard {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .projectActions {
+    width: 100%;
+  }
+
+  .editBtn,
+  .deleteBtn {
+    flex: 1;
+    text-align: center;
+  }
+}

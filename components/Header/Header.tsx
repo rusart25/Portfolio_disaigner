@@ -15,6 +15,7 @@ export function Header() {
 
   const navItems = [
     { href: "#work", label: t.nav.work },
+    { href: "/projects", label: t.nav.projects },
     { href: "#photography", label: t.nav.photography },
     { href: "#design", label: t.nav.design },
     { href: "#about", label: t.nav.about },
